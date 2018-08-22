@@ -77,14 +77,16 @@ categories: main
 ## 맛집
 
 ### 삿포로
-#### 오코노미야끼 & 야끼소바 & 이자카야
+`오코노미야끼 & 야끼소바 & 이자카야`
 >**[맛카]** : 야끼소바, 오코노미야끼
 
 - 예전에 가려다 못간곳. 마침 카락사 근처!
 
 >**[[혼진 쿠시야]](http://cafe.naver.com/jpnstory/2092218)** : 꼬치술집
+
+<br><br>
     
-#### 양고기
+`양고기`
 >**[結び亭]** : 양고기
 
 - 구글 4.4점, 현지인이 많다는 후기가 많음
@@ -94,7 +96,8 @@ categories: main
     - 여기도 현지인 맛집
     - [구글맵](https://www.google.co.kr/maps/place/43%C2%B003'23.1%22N+141%C2%B020'51.9%22E/@43.056407,141.3455603,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d43.056407!4d141.347749)
 
-#### 밥
+<br><br>
+`밥`
 >**[코부타야]** : 부타동 = 돼지고기 덮밥
 
 - [구글맵](https://www.google.co.jp/maps/place/Kobutaya/@43.0571639,141.348221,17z/data=!3m1!4b1!4m5!3m4!1s0x5f0b2984c625b291:0xa2c0f39a85f91269!8m2!3d43.05716!4d141.350415?shorturl=1)
@@ -108,18 +111,21 @@ categories: main
 
 - 스스키노 지하상가
 - 아침이나 저녁에 입이 텁텁해서 밥이 떙기는데 식사는 하기싫고 편의점 주먹밥은 질렸을때 가볼만할듯
-    
-#### 라멘
+
+<br><br>    
+`라멘`
 >**[라멘신겐]**
 
 - 삿포로에서 가장 유명하긴한데 호불호 매우 갈림 (불호는 짜다는 평이 많음)
 
-#### 스프카레
+<br><br>
+`스프카레`
 >**[스프카레 분석글](https://blog.naver.com/phanway/221281580683?proxyReferer=http%3A%2F%2Fcafe.naver.com%2FArticleRead.nhn%3Fclubid%3D10110775%26page%3D1%26menuid%3D731%26boardtype%3DL%26articleid%3D2430935%26referrerAllArticles%3Dfalse)**
 
 >**[[사무라이]](https://blog.naver.com/skyhv57/221102459470)** : 추천많은 스프카레
-    
-#### 카페 & 디저트
+   
+<br><br> 
+`카페 & 디저트`
 ##### 숙소근접
 >**[[시라유키]](https://www.facebook.com/shirayuki.hokkaido/)** : 인생 녹차라떼
 
@@ -174,7 +180,7 @@ categories: main
 - 멀지만...만약 가게된다면...공원은 예쁘다. 날좋으면 짱일듯
 - [구글맵](https://www.google.com/maps/place/%E3%82%B9%E3%83%A0%E3%83%BC%E3%83%81%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC/@43.0459192,141.3559885,18.63z/data=!4m5!3m4!1s0x0:0x94643c2924ad5c3a!8m2!3d43.0457541!4d141.356722)
     
-#### 기타
+`기타`
 >**[ル・ジャンティオム]**
 
 - [구글맵](https://www.google.com/maps/place/%E3%83%AB%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%86%E3%82%A3%E3%82%AA%E3%83%A0/@43.0543743,141.3465164,17z/data=!4m12!1m6!3m5!1s0x0:0xe968233e9e06eb1a!2z44Or44O744K444Oj44Oz44OG44Kj44Kq44Og!8m2!3d43.0543743!4d141.3465164!3m4!1s0x0:0xe968233e9e06eb1a!8m2!3d43.0543743!4d141.3465164?hl=ko)
