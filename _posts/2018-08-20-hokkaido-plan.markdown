@@ -91,6 +91,7 @@ categories: main
 
 - 구글 4.4점, 현지인이 많다는 후기가 많음
 - [구글맵](https://www.google.com/maps/place/%E7%B5%90%E3%81%B3%E4%BA%AD/@43.056206,141.3444202,18z/data=!4m5!3m4!1s0x5f0b299004ec6881:0x7e7991689992600!8m2!3d43.0562059!4d141.3444201)
+- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1457.6488496267093!2d141.3444202!3d43.056206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b299004ec6881%3A0x7e7991689992600!2z57WQ44Gz5Lqt!5e0!3m2!1sko!2skr!4v1534982708223" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 >**[[징기스칸 아루코]](https://cafe.naver.com/jpnstory/2499995)**
     - 여기도 현지인 맛집
@@ -127,6 +128,11 @@ categories: main
 <br><br> 
 `카페 & 디저트`
 ##### 숙소근접
+>**[산마르크]**
+
+- 여긴 그냥 필수임
+- 
+
 >**[[시라유키]](https://www.facebook.com/shirayuki.hokkaido/)** : 인생 녹차라떼
 
 >**[[롯카테이]](https://blog.naver.com/dagare/221271492782)** : 개유명 마루세이 버터샌드, 기타 디저트
@@ -257,3 +263,4 @@ categories: main
 ## 기타
 - [일본 택시요금 계산사이트](https://www.taxifarefinder.com/?country_code=jp) 
     - 지난번에는 여기보다 오천원정도 적게나왔다!
+- 오타루역에서는 우산을 대여해준다고 한다. 호텔에서 출발할때 날이 애매하면 우산을 생략해도 될듯. 근데 수량이 소진되면 어쩌징?
