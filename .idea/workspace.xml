@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd719121-9765-4929-b2d6-65be710d370d" name="Default Changelist" comment="">
+    <list default="true" id="bd719121-9765-4929-b2d6-65be710d370d" name="Default Changelist" comment="cli공부 포스팅">
+      <change afterPath="$PROJECT_DIR$/_site/main/2018/08/18/sample-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/main/2018/08/27/cli-study.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/page3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/page-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/page-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-20-sample-content.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-18-sample-content.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/main/2018/08/20/hokkaido-plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/main/2018/08/20/hokkaido-plan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/main/2018/08/20/sample-content.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/page2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page2/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,42 +24,52 @@
     <session id="-1372198524">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="17" />
-          <entry key="markdown" value="6" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="18" />
+          <entry key="js" value="1" />
+          <entry key="markdown" value="7" />
           <entry key="md" value="1" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="17" />
-          <entry key="Markdown" value="7" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="HTML" value="18" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="8" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="7" />
           <entry key="html" value="30" />
-          <entry key="markdown" value="2843" />
+          <entry key="js" value="25" />
+          <entry key="markdown" value="3251" />
+          <entry key="txt" value="34" />
           <entry key="yml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="30" />
-          <entry key="Markdown" value="2843" />
+          <entry key="JavaScript" value="25" />
+          <entry key="Markdown" value="3251" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="YAML" value="29" />
         </counts>
       </usages-collector>
@@ -73,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -82,17 +90,17 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="458">
-                <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+              <first_editor relative-caret-position="2139">
+                <caret line="93" column="295" selection-start-line="93" selection-start-column="295" selection-end-line="93" selection-end-column="295" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,28 +108,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/index.html">
+        <entry file="file://$PROJECT_DIR$/test0827.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#842#849#0" expanded="true" />
-                <element signature="e#953#960#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/page-header.html">
+        <entry file="file://$PROJECT_DIR$/_site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-cli-study.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="243">
+                <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -134,6 +166,9 @@
       <find>아루코</find>
       <find>환전</find>
       <find>바리스타</find>
+      <find>기타</find>
+      <find>날씨</find>
+      <find>가디건</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,13 +180,16 @@
         <option value="$PROJECT_DIR$/_posts/2016-02-12-sample-content.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-08-20-hokkaido_plan.markdown" />
         <option value="$PROJECT_DIR$/_site/main/2018/08/20/hokkaido-plan.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_posts/2018-08-20-sample-content.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-08-18-sample-content.markdown" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/page-header.html" />
         <option value="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" />
+        <option value="$PROJECT_DIR$/test0827.js" />
+        <option value="D:/기획서,리소스/운영_호텔/0827/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-28-cli-study.markdown" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +232,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,15 +272,77 @@
       <workItem from="1534723084898" duration="8714000" />
       <workItem from="1534894964634" duration="3896000" />
       <workItem from="1534905733330" duration="2612000" />
-      <workItem from="1534915626252" duration="9421000" />
+      <workItem from="1534915626252" duration="10488000" />
+      <workItem from="1534980466566" duration="3625000" />
+      <workItem from="1535094211435" duration="2322000" />
+      <workItem from="1535326193572" duration="4219000" />
+      <workItem from="1535442346554" duration="1659000" />
     </task>
+    <task id="LOCAL-00001" summary="홋카이도 플랜 수정">
+      <created>1534925836488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534925836488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="홋카이도 플랜 수정">
+      <created>1534926179695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534926179695</updated>
+    </task>
+    <task id="LOCAL-00003" summary="홋카이도 플랜 수정">
+      <created>1534926857086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534926857086</updated>
+    </task>
+    <task id="LOCAL-00004" summary="홋카이도 플랜 수정">
+      <created>1535098036146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535098036146</updated>
+    </task>
+    <task id="LOCAL-00005" summary="반영시간체크 테스트">
+      <created>1535336760326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535336760326</updated>
+    </task>
+    <task id="LOCAL-00006" summary="반영시간체크 테스트">
+      <created>1535336927387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535336927387</updated>
+    </task>
+    <task id="LOCAL-00007" summary="반영시간체크 테스트">
+      <created>1535337271138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535337271138</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cli공부 포스팅">
+      <created>1535443737245</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535443737245</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24643000" />
+    <option name="totallyTimeSpent" value="37535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1670179" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -256,7 +356,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21227887" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34651405" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -268,6 +368,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="홋카이도 플랜 수정" />
+    <MESSAGE value="반영시간체크 테스트" />
+    <MESSAGE value="cli공부 포스팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="cli공부 포스팅" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -309,26 +415,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/main/2018/08/20/sample-content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-19-sample-content.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="310">
-            <caret line="20" column="77" lean-forward="true" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/main/2018/08/20/sample-content.html" />
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-19-sample-content.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-18-sample-content.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -339,27 +427,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2139">
+            <caret line="93" column="295" selection-start-line="93" selection-start-column="295" selection-end-line="93" selection-end-column="295" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test0827.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/기획서,리소스/운영_호텔/0827/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding>
-            <element signature="e#842#849#0" expanded="true" />
-            <element signature="e#953#960#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -371,13 +475,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-cli-study.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+          <first_editor relative-caret-position="243">
+            <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>

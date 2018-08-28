@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+  <meta charset="UTF-8">
+  <title>블로그임</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/cayman.css">
+</head>
+
+  <body>
+    <section class="page-header">
+  <h1 class="project-name">블로그임</h1>
+  <h2 class="project-tagline">시범운영중</h2>
+</section>
+
+    <section class="main-content">
+      
+      <h1 id="codecademy-cli-코스-정리-mac-기준">codecademy cli 코스 정리 (mac 기준)</h1>
+
+<h2 id="환경environment">환경(environment)</h2>
+
+<ul>
+  <li>터미널 애플리케이션을 시작할 때마다 새로운 세션이 만들어진다.
+세션은 커멘드라인을 구성하는 설정 및 기본 설정을 즉시 로드한다.</li>
+  <li><code class="highlighter-rouge">.bash_profile</code> : 일반적으로 어떠한 환경이 구동될때, <code class="highlighter-rouge">~/.bash_profile</code> 이라는 파일을 읽어 환경을 설정하게된다. (pakage.json 비슷한 종류같다)</li>
+  <li><code class="highlighter-rouge">~</code> 는 home directory를 의미한다</li>
+  <li><code class="highlighter-rouge">.</code> 는 숨김파일을 의미한다</li>
+  <li><code class="highlighter-rouge">source ~/.bash_profile</code> : 현재 환경에서 profile폴더를 다시 읽어 재설정하게 한다. 터미널을 껐다 킬 필요 없이 환경을 재설정가능하게해준다?</li>
+  <li><code class="highlighter-rouge">env</code> : 현재 사용자의 환경 변수 목록을 리턴</li>
+  <li><code class="highlighter-rouge">echo $PATH</code> : 콜론으로 구분된 디렉터리 목록이 저장되어있다. 명령 스크립트가 저장된 디렉토리들을 나열한다?</li>
+  <li><code class="highlighter-rouge">bash_profile</code> 내부
+    <ul>
+      <li><code class="highlighter-rouge">alias [축약어]="[명령어]"</code> : 명령어를 축약어로 사용할 수 있게된다
+        <ul>
+          <li>예를들어, alias pd=”pwd” 로 작성하면, pd를 쳤을때 pwd 명령어를 사용한것과 같아진다. pakage.json의 script와 비슷</li>
+        </ul>
+      </li>
+      <li><code class="highlighter-rouge">export [변수명]="[변수로저장할것]"</code> : 환경에서 $[변수명] 으로 변수로 저장한것을 사용할 수 있게된다.
+        <ul>
+          <li>예를 들어, export USER=”이지혜” 라고 저장해두면, $USER 입력시 “이지혜” 가 출력된다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="탐색기용-터미널-명령어">탐색기용 터미널 명령어</h2>
+<ul>
+  <li><code class="highlighter-rouge">ls</code> : 현재 작업중인 디렉토리 하위 파일,폴더 출력
+    <ul>
+      <li><code class="highlighter-rouge">-a</code>, <code class="highlighter-rouge">-l</code>, <code class="highlighter-rouge">-t</code> 명령어를 붙여주면 각각 뭔가 자세히나오고, 그냥 <code class="highlighter-rouge">-alt</code> 붙여서 보는게 편함</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">pwd</code> : 현재 작업중인 디렉토리 출력</li>
+  <li><code class="highlighter-rouge">cd [경로]</code> : [경로] 로 이동
+    <ul>
+      <li>명령어 <code class="highlighter-rouge">..</code> 일 경우 부모경로로 이동</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">mkdir [경로명]</code> : 현재 작업중인 디렉토리에 새 경로를 만들어라</li>
+  <li><code class="highlighter-rouge">touch [파일명]</code> : 작업 디렉토리 내에 새 파일을 작성</li>
+  <li><code class="highlighter-rouge">cp [복사할 파일명] [붙여넣기할 파일명]</code> : 파일을 복사하여 붙여넣는다</li>
+  <li><code class="highlighter-rouge">mv [이동할 파일명] [이동될 경로]</code> : 파일을 이동</li>
+  <li><code class="highlighter-rouge">mv [파일명] [파일명]</code> : 첫번째 인자의 파일명을 두번째 인자로 변경</li>
+  <li><code class="highlighter-rouge">rm [경로나 파일명]</code> : 첫번째 인자를 제거
+    <ul>
+      <li>제거대상이 디렉토리일 경우 <code class="highlighter-rouge">-r</code> 을 명령어로 붙여주면 하위 모든 폴더와 디렉토리를 삭제한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="리디렉션-명령어">리디렉션 명령어</h2>
+<ul>
+  <li><code class="highlighter-rouge">echo [문자열]</code> : 입력된 문자열을 터미널에 출력</li>
+  <li><code class="highlighter-rouge">cat [파일명]</code> : 인자의 파일 내용을 터미널에 출력</li>
+  <li><code class="highlighter-rouge">[문자열or파일명] &gt; [파일명]</code> : 첫번째 인자의 파일명을 두번째 인자의 파일로 덮어씀</li>
+  <li><code class="highlighter-rouge">[파일명] &gt;&gt; [파일명]</code> : 첫번째 인자의 파일을 두번째 인자의 파일에 추가함</li>
+  <li><code class="highlighter-rouge">[명령]&lt; [파일명]</code> : &lt; 다음의 파일명에서 표준 입력을 가져와서 왼쪽의 프로그램에 입력</li>
+  <li><code class="highlighter-rouge">sort [파일명]</code> : 입력받은 값을 알파벳 순으로 정렬</li>
+  <li><code class="highlighter-rouge">|</code> 파이프 : 반환된 명령을 이후 명령에 체인시킨다. return문을 받아 다음 명령을 실행하는것과 비슷한것이라 생각됨.
+    <ul>
+      <li>좀 어려운데 예를들어</li>
+      <li><code class="highlighter-rouge">cat lakes.txt | sort &gt; sorted-lakes.txt</code> 라는 명령어를 치면</li>
+      <li>cat lakes.txt 를 조회한 데이터가 출력(리턴)되고</li>
+      <li>위의 데이터에 다시 sort &gt; sorted-lakes.txt 명령어를 실행한것이 된다.</li>
+      <li>풀어쓰자면 cat으로 조회한 lakes.txt 문자열을 sort명령어로 알파벳 순으로 나열한 문자열이 sorted-lakes.txt 에 덮어씌워진다.</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">uniq [파일명]</code> : 파일의 인접한 중복행을 필터링</li>
+  <li><code class="highlighter-rouge">grep [문자열] [파일명]</code> : 파일에서 문자열 패턴이 일치하는 행을 리턴함.
+    <ul>
+      <li><code class="highlighter-rouge">-i</code> 명령어를 붙이면 대소문자를 구별하지 않는다.</li>
+      <li><code class="highlighter-rouge">-R</code> 명령어를 붙이면 디렉터리 내에서 문자열 패턴이 일치하는 파일과 해당 행을 출력한다.</li>
+      <li><code class="highlighter-rouge">-Rl</code> 명령어를 붙이면 디렉터리 내에서 문자열 패턴이 일치하는 파일명만 출력한다.</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">sed ['s/찾을문자열/바꿀문자열']</code> : 찾을 문자열과 일치하는 문자열을 바꿀문자열로 대체시킨다. 단, 첫번째로 일치하는 문자열만 바꾼다.
+    <ul>
+      <li><code class="highlighter-rouge">sed ['s/찾을문자열/바꿀문자열/g']</code> 로 사용하면 일치하는 모든 문자열을 대체시킨다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="기타">기타</h2>
+<ul>
+  <li>터미널 명령어는 <code class="highlighter-rouge">[명령어 인자]</code> 의 쌍으로 이루어져 있다. 예를들어 <code class="highlighter-rouge">[cd ..]</code> 는 cd 라는 명령어의 인자로 .. 를 넣어주는것과 같다.</li>
+  <li>인자에 <code class="highlighter-rouge">*</code> 이 나오면 css와 비슷하게, ‘모든’ 이라는 의미인듯</li>
+  <li>windows는 <a href="https://www.computerhope.com/issues/chusedos.htm">여길</a> 참고</li>
+</ul>
+
+
+      <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://localhost:4000">블로그임</a> is maintained by <a href="http://yourhomepage.com">Jihye Lee</a>.</span>
+  <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+</footer>
+
+
+    </section>
+
+  </body>
+</html>
