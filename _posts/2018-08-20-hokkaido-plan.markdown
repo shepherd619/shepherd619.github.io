@@ -70,8 +70,8 @@ categories: main
     - [마이리얼트립 카약상품](https://www.myrealtrip.com/offers/19246?search_term=%EC%8B%9C%EC%BD%94%EC%B8%A0%EC%BD%94)
           
 ## 환전
-- 이은혜 : 5,0000엔
-- 이지혜 : 8,0000엔?
+- 이은혜 : 50,000엔
+- 이지혜 : 80,000엔?
 
 ## 기후
 - [2017.09.09 ~ 2017.09.12 여행기](https://blog.naver.com/skyhv57/221100625300)

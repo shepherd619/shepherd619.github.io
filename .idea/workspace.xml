@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e37159d-ea90-4374-a726-c7b954180d6f" name="Default Changelist" comment="" />
+    <list default="true" id="4e37159d-ea90-4374-a726-c7b954180d6f" name="Default Changelist" comment="홋카이도 여행준비 콤마 변경">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/main/2018/08/20/hokkaido-plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/main/2018/08/20/hokkaido-plan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page3/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,7 +36,7 @@
         <counts>
           <entry key="Gemfile" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="18" />
+          <entry key="html" value="20" />
           <entry key="js" value="1" />
           <entry key="markdown" value="7" />
           <entry key="md" value="1" />
@@ -38,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="18" />
+          <entry key="HTML" value="20" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -50,8 +57,8 @@
           <entry key="gitignore" value="7" />
           <entry key="html" value="30" />
           <entry key="js" value="25" />
-          <entry key="markdown" value="3251" />
-          <entry key="txt" value="34" />
+          <entry key="markdown" value="3254" />
+          <entry key="txt" value="52" />
           <entry key="yml" value="29" />
         </counts>
       </usages-collector>
@@ -59,8 +66,8 @@
         <counts>
           <entry key="HTML" value="30" />
           <entry key="JavaScript" value="25" />
-          <entry key="Markdown" value="3251" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Markdown" value="3254" />
+          <entry key="PLAIN_TEXT" value="59" />
           <entry key="YAML" value="29" />
         </counts>
       </usages-collector>
@@ -68,12 +75,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="207">
+                <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+              <folding>
+                <element signature="e#939#946#0" expanded="true" />
+                <element signature="e#1050#1057#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/page3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+              <folding>
+                <element signature="e#809#816#0" expanded="true" />
+                <element signature="e#939#946#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,11 +152,11 @@
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/page-header.html" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" />
         <option value="$PROJECT_DIR$/test0827.js" />
         <option value="D:/기획서,리소스/운영_호텔/0827/index.html" />
         <option value="$PROJECT_DIR$/_posts/2018-08-28-cli-study.markdown" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" />
       </list>
     </option>
   </component>
@@ -154,6 +189,11 @@
               <item name="shepherd619.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shepherd619.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shepherd619.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shepherd619.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535443737245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cli공부 포스팅">
+      <created>1535961543758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1535961543758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37712000" />
+    <option name="totallyTimeSpent" value="38362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -273,6 +320,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13277134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3298647" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -282,7 +330,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31113425" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -299,7 +347,8 @@
     <MESSAGE value="홋카이도 플랜 수정" />
     <MESSAGE value="반영시간체크 테스트" />
     <MESSAGE value="cli공부 포스팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="cli공부 포스팅" />
+    <MESSAGE value="홋카이도 여행준비 콤마 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="홋카이도 여행준비 콤마 변경" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -370,7 +419,9 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -396,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-cli-study.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -417,6 +461,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/page3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding>
+            <element signature="e#809#816#0" expanded="true" />
+            <element signature="e#939#946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding>
+            <element signature="e#939#946#0" expanded="true" />
+            <element signature="e#1050#1057#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
