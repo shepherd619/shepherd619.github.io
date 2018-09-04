@@ -148,6 +148,7 @@ categories: main
 - 구글맵에 저장해둠
 
 >**[[시라유키]](https://www.facebook.com/shirayuki.hokkaido/)** : 인생 녹차라떼
+
 - 구글맵
 - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.2005137167507!2d141.34741611573696!3d43.05825019871476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b299b36412f73%3A0xbdf03e53828be1e9!2sSHIRAYUKI!5e0!3m2!1sko!2skr!4v1536047817680" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -175,6 +176,7 @@ categories: main
 - 숙소근처. light house 가 맛있다는 평이 있으니 2순위로.
     
 >**[[J.S pancake cafe]](https://maketravel.blog.me/221195458644)** : 말차 팬케이크
+
 - 구글맵
 - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.729913156497!2d141.34996501573718!3d43.068147698081575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2974d77d541f%3A0x5208f6697be3b6c6!2sJ.S.+PANCAKE+CAFE!5e0!3m2!1sko!2skr!4v1536047937104" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 

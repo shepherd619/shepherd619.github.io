@@ -55,7 +55,7 @@
           <entry key="gitignore" value="7" />
           <entry key="html" value="30" />
           <entry key="js" value="25" />
-          <entry key="markdown" value="3594" />
+          <entry key="markdown" value="3596" />
           <entry key="txt" value="70" />
           <entry key="yml" value="29" />
         </counts>
@@ -64,7 +64,7 @@
         <counts>
           <entry key="HTML" value="30" />
           <entry key="JavaScript" value="25" />
-          <entry key="Markdown" value="3594" />
+          <entry key="Markdown" value="3596" />
           <entry key="PLAIN_TEXT" value="77" />
           <entry key="YAML" value="29" />
         </counts>
@@ -77,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="289" column="10" selection-start-line="289" selection-start-column="10" selection-end-line="289" selection-end-column="10" />
+              <first_editor relative-caret-position="404">
+                <caret line="88" column="294" selection-start-line="88" selection-start-column="294" selection-end-line="88" selection-end-column="294" />
               </first_editor>
               <second_editor />
             </state>
@@ -135,6 +135,7 @@
       <find>가디건</find>
       <find>.labeling-cont .title</find>
       <find>아루코</find>
+      <find>말차팬케</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,7 +245,7 @@
       <workItem from="1535094211435" duration="2322000" />
       <workItem from="1535326193572" duration="4219000" />
       <workItem from="1535442346554" duration="1659000" />
-      <workItem from="1536022896147" duration="6858000" />
+      <workItem from="1536022896147" duration="7099000" />
     </task>
     <task id="LOCAL-00001" summary="홋카이도 플랜 수정">
       <created>1534925836488</created>
@@ -337,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536048330937</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="홋카이도 여행준비 구글맵삽입">
+      <created>1536048643314</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536048643314</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46525000" />
+    <option name="totallyTimeSpent" value="46766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -518,8 +526,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="289" column="10" selection-start-line="289" selection-start-column="10" selection-end-line="289" selection-end-column="10" />
+          <first_editor relative-caret-position="404">
+            <caret line="88" column="294" selection-start-line="88" selection-start-column="294" selection-end-line="88" selection-end-column="294" />
           </first_editor>
           <second_editor />
         </state>
