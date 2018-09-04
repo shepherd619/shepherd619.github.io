@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e37159d-ea90-4374-a726-c7b954180d6f" name="Default Changelist" comment="" />
+    <list default="true" id="4e37159d-ea90-4374-a726-c7b954180d6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -53,7 +55,7 @@
           <entry key="gitignore" value="7" />
           <entry key="html" value="30" />
           <entry key="js" value="25" />
-          <entry key="markdown" value="3584" />
+          <entry key="markdown" value="3594" />
           <entry key="txt" value="70" />
           <entry key="yml" value="29" />
         </counts>
@@ -62,7 +64,7 @@
         <counts>
           <entry key="HTML" value="30" />
           <entry key="JavaScript" value="25" />
-          <entry key="Markdown" value="3584" />
+          <entry key="Markdown" value="3594" />
           <entry key="PLAIN_TEXT" value="77" />
           <entry key="YAML" value="29" />
         </counts>
@@ -75,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="243">
-                <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+              <first_editor relative-caret-position="220">
+                <caret line="289" column="10" selection-start-line="289" selection-start-column="10" selection-end-line="289" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -242,7 +244,7 @@
       <workItem from="1535094211435" duration="2322000" />
       <workItem from="1535326193572" duration="4219000" />
       <workItem from="1535442346554" duration="1659000" />
-      <workItem from="1536022896147" duration="6591000" />
+      <workItem from="1536022896147" duration="6858000" />
     </task>
     <task id="LOCAL-00001" summary="홋카이도 플랜 수정">
       <created>1534925836488</created>
@@ -328,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536048216278</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="홋카이도 여행준비 구글맵삽입">
+      <created>1536048330937</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536048330937</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46258000" />
+    <option name="totallyTimeSpent" value="46525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -509,8 +518,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="243">
-            <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <first_editor relative-caret-position="220">
+            <caret line="289" column="10" selection-start-line="289" selection-start-column="10" selection-end-line="289" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>

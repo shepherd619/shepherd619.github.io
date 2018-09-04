@@ -91,11 +91,11 @@ categories: main
 >**[[혼진 쿠시야]](http://cafe.naver.com/jpnstory/2092218)** : 꼬치술집
 
 <br><br>
-    
+
 `양고기`
 >**[結び亭]** : 양고기
 
-- 구글 4.4점, 현지인이 많다는 후기가 많음
+- 구글 4.4점, 현지인이 많다는 후기多
 - 구글맵
 - <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1457.6488496267093!2d141.3444202!3d43.056206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b299004ec6881%3A0x7e7991689992600!2z57WQ44Gz5Lqt!5e0!3m2!1sko!2skr!4v1534982708223" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -106,6 +106,7 @@ categories: main
 - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.2876832920883!2d141.34556131547853!3d43.05641667914626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDAzJzIzLjEiTiAxNDHCsDIwJzUxLjkiRQ!5e0!3m2!1sko!2skr!4v1536047098794" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <br><br>
+
 `밥`
 >**[코부타야]** : 부타동 = 돼지고기 덮밥
 
@@ -122,7 +123,8 @@ categories: main
 - 스스키노 지하상가
 - 아침이나 저녁에 입이 텁텁해서 밥이 떙기는데 식사는 하기싫고 편의점 주먹밥은 질렸을때 가볼만할듯
 
-<br><br>    
+<br><br>
+
 `라멘`
 >**[라멘신겐]**
 
@@ -136,7 +138,8 @@ categories: main
 
 >**[[사무라이]](https://blog.naver.com/skyhv57/221102459470)** : 추천많은 스프카레
    
-<br><br> 
+<br><br>
+
 `카페 & 디저트`
 ##### 숙소근접
 >**[산마르크]**
