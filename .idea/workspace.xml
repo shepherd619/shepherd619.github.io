@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e37159d-ea90-4374-a726-c7b954180d6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-09-01-resume.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/2018-09-01-resume.markdown" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="404">
-                <caret line="88" column="294" selection-start-line="88" selection-start-column="294" selection-end-line="88" selection-end-column="294" />
+              <first_editor relative-caret-position="128">
+                <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/page3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+            <state relative-caret-position="621">
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
               <folding>
                 <element signature="e#809#816#0" expanded="true" />
                 <element signature="e#939#946#0" expanded="true" />
@@ -190,12 +190,12 @@
             <path>
               <item name="shepherd619.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shepherd619.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="_drafts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shepherd619.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shepherd619.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +245,7 @@
       <workItem from="1535094211435" duration="2322000" />
       <workItem from="1535326193572" duration="4219000" />
       <workItem from="1535442346554" duration="1659000" />
-      <workItem from="1536022896147" duration="7099000" />
+      <workItem from="1536022896147" duration="7348000" />
     </task>
     <task id="LOCAL-00001" summary="홋카이도 플랜 수정">
       <created>1534925836488</created>
@@ -345,17 +345,23 @@
       <option name="project" value="LOCAL" />
       <updated>1536048643314</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="홋카이도 여행준비 구글맵삽입">
+      <created>1536048822713</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536048822713</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46766000" />
+    <option name="totallyTimeSpent" value="47015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105374075" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20969442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -507,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/page3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        <state relative-caret-position="621">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
           <folding>
             <element signature="e#809#816#0" expanded="true" />
             <element signature="e#939#946#0" expanded="true" />
@@ -526,8 +532,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-hokkaido-plan.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="404">
-            <caret line="88" column="294" selection-start-line="88" selection-start-column="294" selection-end-line="88" selection-end-column="294" />
+          <first_editor relative-caret-position="128">
+            <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           </first_editor>
           <second_editor />
         </state>
