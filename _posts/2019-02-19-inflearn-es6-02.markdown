@@ -9,7 +9,7 @@ categories: main
 ## es6이전과 이후의 리스트 순회  
 ### 기존
 - `for` 문 : 배열값의 lenth 프로퍼티에 의존해서 **숫자 키(i)** 로 접근 후 순회하는 방식
-- `for in` 문 : 은 객체의 속성들을 순회하는 구문
+- `for in` 문 : 객체의 속성들을 순회하는 구문
     - 루프 구문이 배열 요소들만을 순회하지 않는다. 대신 누군가에 의해 추가된 확장속성(expando)들도 순회한다.   
     예를 들어, 당신이 다루는 배열이 myArray.name 이라는 속성을 가지고 있다면,   
     이 루프는 배열 요소들 말고도 index == "name" 속성을 대상으로 한번 더 실행될 것이다.  
@@ -59,12 +59,12 @@ es6에서 js는 `Array`, `Set`, `Map` 이라는 내장 값들을 가지고있는
 
 ## 이터러블/이터레이터 프로토콜
 - **이터러블** : 이터레이터를 리턴하는 `[Symbol.iterator] ()` 를 가진 값
-- **이터레이터** : `{value, done}` 객체를 리턴하는 `next()` 를 가진 값
-- **이러터블/이터레이터 프로토콜** : 이터러블을 `for of`, 전개 연산자 등과 함께 동작하도록 한 규약
+- **이터레이터** : `{value, done}` 객체를 리턴하는 `next()` 메서드를 가진 값
+- **이러터블/이터레이터 프로토콜** : 이터러블을 `for of`, 전개 연산자 `...` 등과 함께 동작하도록 한 규약
 
 ### Symbol.iterator
 - **Symbol**은 어떤 객체의 **key**로 사용될 수 있다. 
-- [Symbol에 관한 내용은 아래로](##Symbol)
+- [Symbol에 관한 내용은 아래로](##symbol)
 - 그냥 `[iterator]` 가 아니라 `[Symbol.iterator]` 로 사용하는 이유는, 기존에 작성된, 혹은 작성될 코드와의 중복을 막기 위해서이다.
 - 모든 객체에서 `[Symbol.iterator] ()` 를 실행하면 for of 문으로 순회가 가능하게 된다 ????
     > `Array`, `Map`, `Set`, 그리고 우리가 언급했던 모든 객체들은 공통적으로 이터레이터(iterator) 메소드를 제공합니다.  
@@ -77,8 +77,10 @@ es6에서 js는 `Array`, `Set`, `Map` 이라는 내장 값들을 가지고있는
 let array = [1, 2, 3];
 array[Symbol.iterator] // ƒ values() { [native code] } → Array는 Symbol.iterator를 소유하고 있다
 for (a of array) console.log(a); // 1 2 3
+
 array[Symbol.iterator] = null; // 이터레이터를 null로 바꿈
-for (a of array) console.log(a); // Uncaught TypeError: array is not iterable → 이터레이터를 잃어 이터러블이 아니게 되었으므로 for of 순회가 불가능해졌다.
+for (a of array) console.log(a); // Uncaught TypeError: array is not iterable 
+// → 이터레이터를 잃어 이터러블이 아니게 되었으므로 for of 순회가 불가능해졌다.
 ```
 ### 이터레이터의 동작 방식
 
