@@ -96,6 +96,6 @@ iterator.next(); // {value: undefined, done: true}
 - 이터레이터.next() 를 호출하면, 이터레이터는 자신이 가진 요소들을 하나씩 value로 반환하고, done은 false로 반환한다.
 - 모슨 요소를 순회하고 난 후에 value는 undefined, done은 true가 된다.
 
-## Symbol
+## symbol
 Symbol은 **어떠한 값과도 다를것이 보장되는 키** 라고 할 수 있다.  
 더 쓰는중...
