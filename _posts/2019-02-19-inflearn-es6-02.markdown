@@ -8,21 +8,21 @@ categories: main
 # 순회와 이터러블
 ## es6이전과 이후의 리스트 순회  
 ### 기존
-- 배열값의 lenth 프로퍼티에 의존해서 '숫자' 키(i)로 접근 후 순회하는 방식
+- 배열값의 lenth 프로퍼티에 의존해서 **숫자** 키(i)로 접근 후 순회하는 방식
 - for-in 문은 객체의 속성들을 순회하는 구문
     - 루프 구문이 배열 요소들만을 순회하지 않는다. 대신 누군가에 의해 추가된 확장속성(expando)들도 순회한다.   
-    예를 들어, 당신이 다루는 배열이 myArray.name이라는 속성을 가지고 있다면,   
+    예를 들어, 당신이 다루는 배열이 myArray.name 이라는 속성을 가지고 있다면,   
     이 루프는 배열 요소들 말고도 index == "name" 속성을 대상으로 한번 더 실행될 것이다.  
     뿐만 아니라 배열의 프로토타입 체인(prototype chain)도 순회할 것이다.  
         > for 또는 while등의 문(statement)으로 구성된 반복은 실행될 수는 있지만 값이 될 수 없습니다.   
         값이 될 수 없다는 것은 그 행위를 실행할 수 있을 뿐이지 다음과 같이 할 수는 없다는 것입니다.  
-        [[es6] 연구노트 #2 – 명확한 반복처리](https://www.bsidesoft.com/?p=2862)  
+        [[es6] 연구노트 #2 – 명확한 반복처리](https://www.bsidesoft.com/?p=2862)
 
 
 ### es6 이후
-- 이터레이터/이터러블 프로토콜에 기반하여 for of 문으로 순회
-- es6이전 대표적으로 사용되던 forEach 문은 break, continue, return 문과 함께 사용하지 못하였으나, for of 문은 가능하다 → 루프를 `값`으로도 사용 가능하게 됐다
-- for–of 문은 배열의 요소들, 즉 data를 순회하기 위한 구문
+- 이터레이터/이터러블 프로토콜에 기반하여 `for of` 문으로 순회
+- es6이전 대표적으로 사용되던 forEach 문은 `break`, `continue`, `return` 문과 함께 사용하지 못하였으나, `for of` 문은 가능하다 → 루프를 **값**으로도 사용 가능하게 됐다
+- `for of` 문은 배열의 요소들, 즉 data를 순회하기 위한 구문
 - [ES6 In Depth: 이터레이터(iterator)와 for-of 루프 구문](http://hacks.mozilla.or.kr/2015/08/es6-in-depth-iterators-and-the-for-of-loop/)
 
 ### es6 이전
@@ -51,24 +51,24 @@ for (const a of list) {
 for (const a of str) {
     console.log(a);
 }
-```
+```  
 
-- es6에서 js는 array, set, map이라는 내장 값들을 가지고있는데, 이 값들을 모두 for of 문으로 순회 가능하다. 왜냐하면 그 값들이 이터러블이기 때문이다.  
-그럼 이터러블이란 무엇일까?
+- es6에서 js는 `Array`, `Set`, `Map` 이라는 내장 값들을 가지고있는데, 이 값들을 모두 `for of` 문으로 순회 가능하다. 왜냐하면 그 값들이 **이터러블**이기 때문이다. 그럼 이터러블이란 무엇일까?
 
 ## 이터러블/이터레이터 프로토콜
-- 이터러블 : 이터레이터를 리턴하는 [Symbol.iterator] () 를 가진 값
-- 이터레이터 : {value, done} 객체를 리턴하는 next() 를 가진 값
-- 이러터블/이터레이터 프로토콜 : 이터러블을 for...of, 전개 연산자 등과 함께 동작하도록 한 규약
+- **이터러블** : 이터레이터를 리턴하는 `[Symbol.iterator] ()` 를 가진 값
+- **이터레이터** : `{value, done}` 객체를 리턴하는 `next()` 를 가진 값
+- **이러터블/이터레이터 프로토콜** : 이터러블을 `for of`, 전개 연산자 등과 함께 동작하도록 한 규약
 
 ### Symbol.iterator
-- Symbol은 어떤 객체의 key로 사용될 수 있다.
-- 그냥 [iterator] 가 아니라 [Symbol.iterator] 로 사용하는 이유는, 기존에 작성된, 혹은 작성될 코드와의 중복을 막기 위해서이다.
-- 모든?? 객체에서 [Symbol.iterator] () 를 실행하면 for of 문으로 순회가 가능하게 된다. ????
+- **Symbol**은 어떤 객체의 **key**로 사용될 수 있다. 
+- [Symbol에 관한 내용은 아래로](##Symbol)
+- 그냥 `[iterator]` 가 아니라 `[Symbol.iterator]` 로 사용하는 이유는, 기존에 작성된, 혹은 작성될 코드와의 중복을 막기 위해서이다.
+- 모든 객체에서 `[Symbol.iterator] ()` 를 실행하면 for of 문으로 순회가 가능하게 된다 ????
     > `Array`, `Map`, `Set`, 그리고 우리가 언급했던 모든 객체들은 공통적으로 이터레이터(iterator) 메소드를 제공합니다.  
       그리고 이터레이터 메소드를 제공할 수 있는 객체가 더 있습니다.  
       바로 당신이 원하는 모든 객체입니다.  당신이 어떤 객체에든 myObject.toString() 메소드를 추가하면 JS가 이를 통해 해당 객체를 문자열로 변환하는 방법을 알아내는 것과 마찬가지로,  
-      어떤 객체에든 `myObject[Symbol.iterator] ()` 메소드를 추가하면 JS는 해당 객체를 어떻게 순회(loop)해야 하는지 알아냅니다.  
+      어떤 객체에든 `myObject[Symbol.iterator] ()` 메소드를 추가하면 JS는 해당 객체를 어떻게 순회(loop)해야 하는지 알아냅니다.
 
 
 ```javascript
@@ -88,6 +88,10 @@ iterator.next(); // {value: 2, done: false}
 iterator.next(); // {value: 3, done: false}
 iterator.next(); // {value: undefined, done: true}
 ```
-- 이터레이터는 {value, done} 객체를 리턴하는 next() 메서드를 가진 값이라고 하였다.
+- 이터레이터는 `{value, done}` 객체를 리턴하는 `next()` 메서드를 가진 값이라고 하였다.
 - 이터레이터.next() 를 호출하면, 이터레이터는 자신이 가진 요소들을 하나씩 value로 반환하고, done은 false로 반환한다.
-- 모슨 요소를 순회하고 난 후에는 value는 undefined, done은 true가 된다.
+- 모슨 요소를 순회하고 난 후에 value는 undefined, done은 true가 된다.
+
+## Symbol
+Symbol은 **어떠한 값과도 다를것이 보장되는 키** 라고 할 수 있다.  
+더 쓰는중...
